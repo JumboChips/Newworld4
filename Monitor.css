@@ -1,0 +1,238 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #264653;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #e76f51;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #2a9d8f;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a9d8f;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 8em;
+    text-decoration: none;
+}
+
+main {
+    border: 1px double #e76f51;
+    margin-top: 3em;
+    padding: 1.5em;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    width: 15em;
+    font-size: 2em;
+    border: 1px solid #e76f51;
+    background-color: #e76f51;
+}
+
+.compare-table {
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.compare-table img {
+    width: 20em;
+}
+
+.compare-table div {
+    padding: 1em;
+}
+
+@media (min-width: 390px) and (max-width: 578px) {
+    h1 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .menu li {
+        float: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .menu a {
+        padding: 1em auto;
+        font-size: 0.7em;
+    }
+
+    main {
+        padding: auto;
+        font-size: 0.7em;
+
+    }
+
+    .compare-table img {
+        width: 100%;
+    }
+
+    .compare-table {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 579px) and (max-width: 767px) {
+    h1 {
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .menu li {
+        float: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .menu a {
+        padding: 1em auto;
+        font-size: 1em;
+    }
+
+    main {
+        padding: auto;
+        font-size: 0.7em;
+
+    }
+
+    .compare-table img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .menu li {
+        float: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .menu a {
+        padding: 1em auto;
+        font-size: 1em;
+    }
+
+    main {
+        padding: auto;
+        font-size: 1em;
+
+    }
+
+    .compare-table img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 4em;
+        width: 100%;
+    }
+
+    .menu a {
+        padding: 1em auto;
+        font-size: 1em;
+    }
+
+    main {
+        padding: auto;
+        font-size: 1em;
+
+    }
+
+    .compare-table img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4em;
+        width: 100%;
+    }
+
+    .menu a {
+        padding: 1em auto;
+        font-size: 1em;
+    }
+
+    main {
+        font-size: 1.2em;
+    }
+
+    .compare-table img {
+        width: 100%;
+    }
+}
